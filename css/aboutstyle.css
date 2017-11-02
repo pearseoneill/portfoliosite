@@ -1,0 +1,82 @@
+html {
+  height: 100%;
+}
+
+.bg-nz{ background-image: url(../images/nzillu1.png);
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+    
+}
+body {
+  margin: 0;
+  min-height: 100%;
+  background-color: white;
+ font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+}
+
+a {
+    color: 363644;
+    text-decoration: none;
+}
+
+a:hover {color: black; border-bottom: 5px solid black;}
+
+
+
+/*--------------- NAV ---------------*/
+
+.mononav  {
+          float: left;
+     font-family: 'Montserrat', sans-serif;
+        margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin: 15px
+      border-bottom: none;
+      }
+nav ul {
+    float: right;
+    margin: 20px;
+ margin-top: 2em;
+    margin-bottom: 2em;
+    margin-right: 2em;}
+
+nav ul li {
+    display:inline;
+    margin: 15px;
+    font-size: 1.2em;
+}
+
+
+.mononav a {text-decoration: none;
+border:0px}
+
+
+
+h1 { color: 363644;
+padding-top: 3em;
+text-align: center;
+font-size: 3em
+}
+
+h2 {color: 363644;
+text-align: center;
+font-size: 2em;}
+
+p {font-family: 'Montserrat', sans-serif;
+font-size:1.3em;
+padding-left: 7em;
+padding-right: 7em;
+justify-content: space-between}
+
+.me {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    height: 400px
+}
+
