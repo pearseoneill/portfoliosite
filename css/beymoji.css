@@ -2,7 +2,7 @@ html {
   height: 100%;
 }
 
-.bg-beymoji{ background-image: url(../images/beymoji.png);
+.bg-beymoji{ background-image: url(../images/altogether.jpg);
     background-size: cover;
     background-position: center center;
     height: 450px;
@@ -23,8 +23,9 @@ a {
     text-decoration: none;
 }
 
-a:hover {color: black; border-bottom: 5px solid black;}
+a:hover {color: black; border-bottom: 5px solid ; border-bottom-color: f25272;}
 
+contactnav:hover {color: f25272;}
 
 
 /*--------------- NAV ---------------*/
@@ -59,19 +60,29 @@ border:0px}
 
 h1 { color: 363644;
 
-padding-bottom:1.5em;
+padding-bottom:.5em;
+font-size: 3em;
 text-align: center;
-font-size: 3em
+    padding-top: 3em;
+    font-weight: 900;
+    line-height: 1.5em;
+   
 }
+
+
 
 h2 {color: 363644;
 text-align: center;
 font-size: 2em;}
 
+h2 {color: 36364;
+padding-left: 7em;}
+
+
 p {font-family: 'Montserrat', sans-serif;
 font-size:1.3em;
-padding-left: 5em;
-padding-right: 5em;
+padding-left: 10%;
+padding-right: 10%;
 justify-content: space-between}
 
 .bey {display: block;
@@ -80,4 +91,117 @@ padding-left: 7em;
 padding-right: 7em;
     padding-bottom: 2em;
 }
+
+h3{padding-left: 10%;
+font-size:2em}
+
+.approach1{padding-right: 50%;
+padding-left: 5.6% }
+
+.lemonsketch {position:absolute;
+width:40%;
+top:57.5%;
+left:50%}
+
+.lemonmood {position:absolute;
+width:40%;
+top:139%;
+right:50%}
+
+.approach2{padding-left: 50%;
+padding-right: 5.6% }
+
+.mockup {position:absolute;
+width:40%;
+top:204%;
+left:50%}
+
+.outcome {padding-right: 52%;
+padding-left: 6% }
+
+.fa {
+  padding: 20px;
+  font-size: 10px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+     border-radius: 15px;  
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+     border-radius: 15px;  
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+  border-radius: 15px;    
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+     border-radius: 15px;  
+}
+
+.socials {text-align: center}
+
+
+.findme {padding-top: 2em;
+text-align: center}
+
+
+h4 {text-align: center;
+padding-top: 1em}
+
+.mydiv {padding-left:10%; padding-top:5em; padding-bottom:4em; }
+
+.myimage {float:left; width:40%; margin:5px; padding-right:4em}
+
+.myimage3 {float:left; width:30%; margin:5px; padding-right:4em; padding-left: 10%}
+
+mydiv1 {padding-left:10%; padding-right: 10%; padding-bottom: 5em; }
+
+mydiv2 {padding-left:10%; padding-right: 10%; padding-bottom: 6em; }
+
+.myimage1 {float:right; width:35%; margin:5px; padding-left:6em; padding-right:10%; padding-top:1em; }
+
+.myimage2 {float:right; width:45%; margin:5px; padding-left:6em; padding-right:10%; padding-top:3em; }
+
+.mydiv3 {padding-bottom: 26em; padding-top: 4em;}
+
+.mydiv4 {padding-bottom: 6em; padding-top: 2em;}
+
+.textpad {padding-top: 3em; padding-bottom: 5em;}
+
+.brief {padding-bottom: 3em;}
+
+.elements img{ display: inline-block;
+width: 25%; padding-left: 1em; padding-right: 1em;
+}
+
+.elements {text-align: center; padding-top: 4em;}
+
+.six {width: 70%; color:7cad91; border-radius: 30px; margin-bottom: 5em;}
+
+
+.mononav:hover {cursor: pointer}
+    
+
+
+
+
+
 

@@ -1,3 +1,6 @@
+
+
+
 html {
   height: 100%;
 }
@@ -16,7 +19,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {color: black; border-bottom: 5px solid black;}
+a:hover {color: black; border-bottom: 5px solid ; border-bottom-color: f25272;}
 
 
 
@@ -52,6 +55,9 @@ nav ul li {
     margin: 15px;
     font-size: 1.2em;
 }
+
+.mononav:hover {cursor: pointer}
+    
 
 .monogram {
     max-width: 400px;
@@ -103,6 +109,9 @@ font-size: 2em;
 padding-top: 2em;}
 
 
+h4 {text-align: center;
+padding-top: 1em}
+
 
 /*-----------------CASE STUDIES-------------------*/
 
@@ -151,10 +160,13 @@ p{
 #mono {
     margin: 0 auto;
     width: 400px;
+    padding-top: 5em;
     
 }
 
-.center {text-align: center;}
+.center {text-align: center;
+font-size: 1.5em;
+line-height: 1.5em}
 
 .Container {
 	width: 100%;
@@ -287,4 +299,47 @@ a, a:hover {
 	-webkit-transition: all ease 0.5s;
 	-o-transition: all ease 0.5s;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+     border-radius: 15px;  
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+     border-radius: 15px;  
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+  border-radius: 15px;    
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+     border-radius: 15px;  
+}
+
+.socials {text-align: center}
+
+
+.findme {padding-top: 2em;}
+
 
